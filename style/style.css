@@ -69,7 +69,7 @@ picture {
 }
 
 body {
-  background: rgba(153, 92, 32, 0.4705882353);
+  background: rgba(69, 70, 94, 0.4705882353);
 }
 
 .main__title {
@@ -87,21 +87,22 @@ body {
 .main__text {
   text-align: center;
   font-family: "Montserrat";
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   margin: 0 0 40px 0;
 }
 @media screen and (min-width: 1024px) {
   .main__text {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 .main__image-box {
   margin: 0 auto;
-  border: 25px solid black;
-  max-width: 853px;
+  border: 25px solid white;
+  max-width: 650px;
+  max-height: 450px;
   overflow: hidden;
-  background: black;
+  background: white;
 }
 .main__image-box img {
   width: 100%;

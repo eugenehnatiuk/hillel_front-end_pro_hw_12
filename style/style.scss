@@ -3,7 +3,7 @@
 @import 'vars';
 
 body {
-  background: #995c2078;
+  background: #45465e78;
 }
 
 .main {
@@ -22,21 +22,22 @@ body {
   &__text {
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     margin: 0 0 40px 0;
 
     @include viewport-lg {
-      font-size: 45px;
+      font-size: 30px;
     }
   }
 
   &__image-box {
     margin: 0 auto;
-    border: 25px solid black;
-    max-width: 853px;
+    border: 25px solid white;
+    max-width: 650px;
+    max-height: 450px;
     overflow: hidden;
-    background: black;
+    background: white;
 
     img {
       width: 100%;
